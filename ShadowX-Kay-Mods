@@ -209,7 +209,8 @@
     <ul>
         <li>
             <div class="mod-name">
-                <img src="file:///C:\Users\abdul\OneDrive\Desktop\mods\Website\css.png" alt="Toyota Revo GR Modified" style="width: 200px; height: auto; margin-right: 10px;">
+                <img src="images/css.png" alt="Toyota Revo GR Modified">
+ style="width: 200px; height: auto; margin-right: 10px;">
                 <span class="mod-title" style="font-size: 1.5em;">Toyota Revo GR Modified</span>
                 <a href="downloads/Toyota_RevoGR_Modified_By_ShadowX.rar" download class="download-btn">Download</a>
             </div>
