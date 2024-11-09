@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowX-Kay-Mods</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Style with GTA V Wallpaper */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpapers.com/images/featured/gta-5-qpjtjdxwbwrk4gyj.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        /* Header Style */
+        header {
+            background-color: rgba(34, 34, 34, 0.8);
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Navigation Bar Style */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px 15px;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff5722;
+        }
+
+        /* Free Mods Section */
+        .free-mods {
+            background-color: rgba(34, 34, 34, 0.85);
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .free-mods h2 {
+            color: #ff5722;
+            text-align: center;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .free-mods ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .free-mods li {
+    display: flex;
+    align-items: center; /* Centers the content in the li */
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+        .free-mods li img {
+    width: 200px; /* Updated image width */
+    height: auto;
+    margin-right: 10px;
+}
+
+        }
+
+    .free-mods li .mod-name {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em; /* Increase text size */
+}
+
+
+        .free-mods li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            background-color: #ff5722;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+.mod-name .mod-title {
+    margin-left: 10px; /* Space between image and text */
+    margin-right: 15px; /* Space between text and download button */
+}
+
+.download-btn {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #ff5722;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #e64a19;
+}
+
+
+        .free-mods li a:hover {
+            background-color: #e64a19;
+        }
+
+        /* About Us Section with Black Background and White Text */
+        .about-us {
+            background-color: #000000; /* Changed to black */
+            color: #ffffff; /* Changed text to white */
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .about-us h2 {
+            text-align: center;
+            color: #ff5722;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .about-us p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        .about-us a {
+            color: #ff5722;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Footer Style */
+        footer {
+            background-color: rgba(34, 34, 34, 0.8);
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+
+        /* Optional: Add a subtle shadow to text for better readability */
+        header h1, p, nav ul li a {
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>ShadowX-Kay-Mods</h1>
+        <p>A Gaming Website For Every Kind Of Mods And 3D Models.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="free-mods.html">Free Mods</a></li>
+            <li><a href="paid-mods.html">Paid Mods</a></li>
+            <li><a href="3d-models.html">3D Models</a></li>
+        </ul>
+    </nav>
+
+    <!-- Free Mods Section -->
+    <!-- Free Mods Section -->
+<section class="free-mods">
+    <h2>Free Mods</h2>
+    <ul>
+        <li>
+            <div class="mod-name">
+                <img src="file:///C:\Users\abdul\OneDrive\Desktop\mods\Website\css.png" alt="Toyota Revo GR Modified" style="width: 200px; height: auto; margin-right: 10px;">
+                <span class="mod-title" style="font-size: 1.5em;">Toyota Revo GR Modified</span>
+                <a href="downloads/Toyota_RevoGR_Modified_By_ShadowX.rar" download class="download-btn">Download</a>
+            </div>
+        </li>
+    </ul>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Website By ShadowX</p>
+    </footer>
+
+    <!-- About Us Section (Moved Below Footer) -->
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>
+            ⦿ <strong>𝗜𝗡𝗧𝗥𝗢</strong><br>
+            ᴍʏ ɴᴀᴍᴇ ɪs MOHID JADOON & ɪ'ᴍ ꜰʀᴏᴍ ABBOTTABAD, ᴘᴀᴋɪsᴛᴀɴ. ɪ ꜱᴛᴀʀᴛᴇᴅ ᴛʜɪs WEBSITE ʙᴇᴄᴀᴜsᴇ ɢᴀᴍɪɴɢ ɪs ᴍʏ ᴘᴀssɪᴏɴ.
+        </p>
+        <p>
+            ⦿ <strong>𝗚𝗢𝗔𝗟</strong><br>
+            ᴛʜɪs Website ᴡɪʟʟ ʙᴇ ᴀ ᴘᴏɪɴᴛ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ɢᴛᴀ 5 Mods. (INSHA ALLAH)..
+        </p>
+        <p>
+            <strong>YOUTUBE</strong>: <a href="https://www.youtube.com/channel/UCkgG7vWHGJM5uW2gI38geyA" target="_blank">https://www.youtube.com/channel/UCkgG7vWHGJM5uW2gI38geyA</a><br>
+            <strong>DISCORD</strong>: <a href="https://discord.gg/h4jNvKhGnw" target="_blank">https://discord.gg/h4jNvKhGnw</a>
+        </p>
+        <p>
+            We Are Here To Build Communities.<br>
+            Kindly Don’t Publish Or Upload Mods Without Credits.
+        </p>
+        <p>
+            COPYRIGHT OWNED BY Mohdii_X
+        </p>
+    </section>
+
+</body>
+</html>
